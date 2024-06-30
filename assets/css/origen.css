@@ -1,0 +1,66 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --bg-inf-day: #f04051;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+.text-rank {
+  color: #03a691;
+}
+.star-rank {
+  color: #fa8e04;
+}
+.card-oferta span {
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #410062;
+  font-size: 12px;
+  color: #efe02c;
+  padding: 2px 0rem;
+  height: 24px;
+}
+.inf-day {
+  left: 1rem;
+  bottom: -6%;
+  font-size: 0.786rem;
+  background-color: var(--bg-inf-day);
+  padding: 0.25rem 0.7rem;
+}
+.air-rotate {
+  transform: rotate(90deg);
+}
+.bg-rank {
+  background-color: #03a691;
+}
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.card-none {
+  display: none;
+}
+.card-block {
+  display: inline-flex;
+}
+
+@media (max-width: 576px) {
+  .nav-swiper-mobile {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: -20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0 0 20px;
+    width: 100%;
+    scrollbar-color: transparent transparent;
+  }
+  .card-none {
+    display: none;
+  }
+  .card-block {
+    display: inline-flex;
+  }
+}
